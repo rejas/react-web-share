@@ -25,7 +25,6 @@
     "@size-limit/preset-small-lib": "^8.1.0",
     "@storybook/addon-actions": "^6.5.12",
     "@storybook/addon-essentials": "^6.5.12",
-    "@storybook/addon-knobs": "^6.4.0",
     "@storybook/addon-links": "^6.5.12",
     "@storybook/react": "^6.5.12",
     "@types/react-dom": "^18.0.6",
