@@ -17,17 +17,17 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v4
         with:
-          node-version: 20.x
+          node-version: 24.x
           registry-url: https://registry.npmjs.org
 
       - name: Install deps and build (with cache)
         uses: bahmutov/npm-install@v1
 
       - name: Lint
-        run: yarn lint
+        run: node run lint
 
       - name: Build
-        run: yarn build
+        run: node run build
 
       - name: Publishing to NPM
         env:
