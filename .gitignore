@@ -1,6 +1,6 @@
 *.log
 .DS_Store
-node_modules
 .cache
+.idea
 dist
-storybook-static
+node_modules
